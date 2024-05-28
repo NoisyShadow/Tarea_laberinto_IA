@@ -11,7 +11,7 @@ class Cola():
     def Vacio(self):#Se encarga de verificar que la pila este vacia
         return self.cabeza is None and self.final is None
 
-    def encolar(self,value):
+    def agregar(self,value):
         nuevonodo = nodo(value)
         if self.Vacio():
             self.cabeza = nuevonodo
@@ -21,7 +21,7 @@ class Cola():
             self.final = nuevonodo
         return True
     
-    def desencolar (self):# Elimina y devuelve el primer elemento de la cola
+    def eliminar (self):# Elimina y devuelve el primer elemento de la cola
         if self.Vacio(): 
             return None
         valor_desencolado = self.cabeza.dato
@@ -31,12 +31,13 @@ class Cola():
         return valor_desencolado 
 
   
-#Testing cola
-i = Cola()
-i.encolar(1)
-i.encolar(2)
-i.encolar(5)
-
-print(i.desencolar())
-print(i.desencolar())
-print(i.desencolar())
+#Testing cola.
+#i = Cola()
+#i.agregar(1)
+#i.agregar(2)
+#i.agregar(5)
+#Se mostraran los resultados de eliminar.
+#print("cola desencolada")
+#print(i.eliminar())
+#print(i.eliminar())
+#print(i.eliminar())

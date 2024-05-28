@@ -36,15 +36,15 @@ class Cola():
 
   
 #Testing cola.
-i = Cola()
-i.encolar(1)
-i.encolar(2)
-i.encolar(5)
+#i = Cola()
+#i.encolar(1)
+#i.encolar(2)
+#i.encolar(5)
 #Se mostraran los resultados de desencolar.
-print("cola desencolada")
-print(i.desencolar())
-print(i.desencolar())
-print(i.desencolar())
+#print("cola desencolada")
+#print(i.desencolar())
+#print(i.desencolar())
+#print(i.desencolar())
 
 #
 class pila:
